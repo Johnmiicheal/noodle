@@ -1,19 +1,17 @@
-import { Typography } from '@noodle/ui';
-
+import { DashboardPanel } from '@/components/DashboardPanel';
+import { Greeting } from '@/components/Greeting';
+import { RecentModules } from '@/components/RecentModules';
 import { DashboardLayout } from '@/layouts/dashboard';
 import { type NextPageWithLayout } from '@/utils/NextPageWithLayout';
 
 const AppPage: NextPageWithLayout = () => {
   return (
-    <main className="flex flex-1 items-center justify-center">
-      <div className="text-center">
-        <Typography.H1>😪</Typography.H1>
-        <Typography.H1>It&apos;s a bit lonely here</Typography.H1>
-        <Typography.P className="max-w-[50ch]">
-          We are hard at work getting the dashboard up and running, we are still
-          in very much early days of the development of Noodle.
-        </Typography.P>
+    <main className="grid h-full w-full grid-cols-[1fr_300px] gap-8 pt-4">
+      <div className="flex flex-col gap-6 overflow-hidden pb-2">
+        <Greeting />
+        <RecentModules />
       </div>
+      <DashboardPanel />
     </main>
   );
 };

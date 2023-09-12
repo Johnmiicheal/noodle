@@ -13,7 +13,7 @@ const redis = new Redis({
 
 const ratelimit = new Ratelimit({
   redis: redis,
-  limiter: Ratelimit.slidingWindow(5, '10 s'),
+  limiter: Ratelimit.slidingWindow(10, '3 s'),
 });
 
 async function rateLimitMiddleware(
@@ -38,6 +38,10 @@ export default authMiddleware({
       publicRoutesThatShouldRedirectAfterAuth.includes(req.nextUrl.pathname)
     ) {
       return NextResponse.redirect(new URL('/app', req.url));
+    }
+
+    if (!auth.userId && req.nextUrl.pathname.includes('/app')) {
+      return NextResponse.redirect(new URL('/sign-in', req.url));
     }
 
     return NextResponse.next();

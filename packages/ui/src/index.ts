@@ -10,3 +10,5 @@ export * from './input';
 export * from './label';
 export * from './textarea';
 export * from './form';
+export * from './error-panel';
+export * from './scroll-area';

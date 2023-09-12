@@ -6,12 +6,15 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > **Warning**
 > This is a work-in-progress and not the finished product.
+>
+> Noodle is in it's very early days of development and there is not much going on for the product right now.
+> We are working hard to providing an initial version as soon as possible and also accepting contributions.
 >
 > Feel free to leave feature suggestions but please don't open issues for bugs or support requests just yet.
 >
@@ -19,7 +22,9 @@
 
 ![Noodle Preview](https://github.com/ixahmedxi/noodle/blob/main/apps/web/public/preview.png?raw=true)
 
-## Features
+<p align="center" style="color:dodgerblue;"><strong>⚠️ This is a UI design mockup of what the platform will look like, it is not the current state of the project.</strong></p>
+
+## Planned Features
 
 - 📁 Module/Subject Management
 - 📒 Note taking
@@ -73,6 +78,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/masterujjval"><img src="https://avatars.githubusercontent.com/u/64778409?v=4?s=100" width="100px;" alt="Ujjwal gupta"/><br /><sub><b>Ujjwal gupta</b></sub></a><br /><a href="https://github.com/ixahmedxi/noodle/commits?author=masterujjval" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/faizan07"><img src="https://avatars.githubusercontent.com/u/14312760?v=4?s=100" width="100px;" alt="Faizanul Haque"/><br /><sub><b>Faizanul Haque</b></sub></a><br /><a href="#content-faizan07" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ShadyD45"><img src="https://avatars.githubusercontent.com/u/54709753?v=4?s=100" width="100px;" alt="Shubham Dhumal"/><br /><sub><b>Shubham Dhumal</b></sub></a><br /><a href="#content-ShadyD45" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://gedeondoescode.com"><img src="https://avatars.githubusercontent.com/u/75461444?v=4?s=100" width="100px;" alt="Gedeon"/><br /><sub><b>Gedeon</b></sub></a><br /><a href="https://github.com/ixahmedxi/noodle/commits?author=gedeondoescode" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
